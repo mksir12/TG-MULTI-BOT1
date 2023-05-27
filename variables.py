@@ -12,7 +12,7 @@ API_HASH = os.environ.get("API_HASH", "")
 
 PICS = os.environ.get("PICS", "https://graph.org/file/7412174964ce9dcc0fdf1.jpg").split()
 
-ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5500931763').split()]
+ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', 'ADMIN').split()]
 
 DB_URL = os.environ.get("DB_URL", "")
 
