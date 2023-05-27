@@ -6,7 +6,7 @@ from variables import FORCE_SUB
 
 async def not_subscribed(_, c, m):
    if not c.force_channel:
-      return False
+      return True
    try:             
       user = await c.get_chat_member(c.force_channel, m.from_user.id)
    except UserNotParticipant:
