@@ -6,7 +6,7 @@ from variables import FORCE_SUB
 
 async def not_subscribed(_, c, m):
    if not c.force_channel:
-      return True
+      return False
    try:             
       user = await c.get_chat_member(c.force_channel, m.from_user.id)
    except UserNotParticipant:
@@ -20,6 +20,6 @@ async def not_subscribed(_, c, m):
 
 @Client.on_message(filters.private & filters.create(not_subscribed))
 async def is_not_subscribed(client, message):
-    buttons = [[ InlineKeyboardButton(text="🤖 Join Our Channel", url=f"https://t.me/host_updation") ]]                 
+    buttons = [[ InlineKeyboardButton(text="🤖 Join Our Channel", url=f"https://t.me/{FORCE_SUB}"") ]]                 
     text = "**sorry dude you're not joined my channel. So please join our channel to continue**"
     await message.reply_text(text=text, reply_markup=InlineKeyboardMarkup(buttons))
