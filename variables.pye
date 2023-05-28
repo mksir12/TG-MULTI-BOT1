@@ -35,7 +35,7 @@ LOG_TEXT = """<i><u>👁️‍🗨️USER DETAILS</u>
 ○ First Name : <code>{first_name}<code>
 ○ UserName : @{username}
 
-By = {bot}</i>"""
+
 
 
 
