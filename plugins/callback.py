@@ -208,7 +208,7 @@ async def callback(client: Client, query: CallbackQuery):
            InlineKeyboardButton("👨‍💻 𝙳𝙴𝚅 1", url="https://t.me/about_oggy"),
            InlineKeyboardButton("👨‍💻 𝙳𝙴𝚅 2", url="https://t.me/host_updation")
            ],[
-           InlineKeyboardButton("❣️ 𝐒𝐎𝐔𝐑𝐂𝐄 𝐂𝐎𝐃𝐄 ❣️", url="https://github.com/Itz-JEOL/TG-MULTI-BOT"),
+           InlineKeyboardButton("❣️ 𝐒𝐎𝐔𝐑𝐂𝐄 𝐂𝐎𝐃𝐄 ❣️", url="https://graph.org/file/7412174964ce9dcc0fdf1.jpg"),
            ],[
            InlineKeyboardButton("⏮️ ʙᴀᴄᴋ", callback_data="start"),
            InlineKeyboardButton("🔒 ᴄʟᴏꜱᴇ", callback_data="close")
