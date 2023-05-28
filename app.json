@@ -30,7 +30,7 @@
             "required": true
         },
         "ADMIN": {
-            "description": "Your telagram user id to control this bot eg:- 5781982",
+            "description": "Your telagram user id to control this bot eg:- 5500931763",
             "required": true
         },
         "LOG_CHANNEL": {
